@@ -28,12 +28,13 @@ public class LemonadeStand {
 		
 		//testing for cups
 		Path p2 = new Path();       // 1) Create an empty Path object
-        p2.moveTo(150.0,  50.0);    // 2) Move your pencil to (150, 50)
-        p2.lineTo(150.0, 150.0);    // 3) Draw a line down to (150, 150)
+        p2.moveTo(130.0,  50.0);    // 2) Move your pencil to (150, 50)
+        p2.lineTo(140.0, 100.0);    // 3) Draw a line down to (150, 150)
                                     // 4) Add a quadratic segment over to (50, 150)
-        p2.quadTo(100.0, 200.0, 50.0, 150.0);
-        p2.lineTo( 50.0,  50.0);    // 5) Add a line up to (50, 50)
+        p2.quadTo(120.0, 75.0, 100.0, 100.0);
+        p2.lineTo( 115.0,  50.0);    // 5) Add a line up to (50, 50)
         p2.closePath();             // 6) Close the Path.
+        
 	}
 	
 	public static void main(String[] args) {
